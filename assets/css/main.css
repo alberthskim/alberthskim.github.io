@@ -7,6 +7,49 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.about-albert {
+	display: flex;
+	justify-content: space-between;
+	gap: 5rem;
+}
+
+.left-side {
+	display: flex;
+	flex-direction: column;
+}
+
+.right-side {
+	padding: 1em 0;
+	display: flex;
+	text-align: left;
+}
+
+.projects {
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+.contact-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-list-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.contact-list-list > li {
+	padding: 0;
+}
+
+.contact-list-list > li > a:link {
+	text-decoration: none !important;
+}
+
+
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2817,8 +2860,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: darkgray;
+			color: white;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3996,4 +4039,30 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	.about-albert {
+		display: flex;
+		justify-content: space-between;
+		gap: 5rem;
+	}
+
+	.left-side {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.right-side {
+		padding: 1em 0;
+		display: flex;
+		text-align: left;
+	}
+
+	.projects {
+		text-align: center;
+		padding-top: 1.5rem;
+	}
+
+	.my-link {
+		text-decoration: none;
 	}
